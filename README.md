@@ -4,6 +4,12 @@ This is the official repository for the publication [ContextSeg: Sketch Semantic
 ## Dataset
 Dataset can be downloaded from [CreativeSketch](https://songweige.github.io/projects/creative_sketech_generation/gallery_creatures.html) and [SPG](https://songweige.github.io/projects/creative_sketech_generation/gallery_creatures.html).
 
+## Requirments
+
+- Pytorch>=1.6.0
+- pytorch_geometric>=1.6.1
+- tensorboardX>=1.9
+  
 ### Training
 ```
 python train_Embed.py
