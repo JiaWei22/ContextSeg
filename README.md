@@ -3,12 +3,10 @@ This is the official repository for the publication [ContextSeg: Sketch Semantic
 
 ### Training
 ```
-python train.py
+python train_Embed.py
 ```
-
-### Testing
 ```
-python test.py
+python train_Segformer.py
 ```
 ## Citation
 ```
