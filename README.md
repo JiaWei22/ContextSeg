@@ -1,6 +1,9 @@
 # ContextSeg
 This is the official repository for the publication [ContextSeg: Sketch Semantic Segmentation by Querying the Context with Attention](https://arxiv.org/abs/2311.16682).
 
+## Dataset
+Dataset can be downloaded from [CreativeSketch](https://songweige.github.io/projects/creative_sketech_generation/gallery_creatures.html) and [SPG](https://songweige.github.io/projects/creative_sketech_generation/gallery_creatures.html)
+
 ### Training
 ```
 python train_Embed.py
