@@ -7,9 +7,9 @@ Dataset can be downloaded from [CreativeSketch](https://songweige.github.io/proj
 
 ## Requirments
 
-- Pytorch>=1.6.0
-- pytorch_geometric>=1.6.1
-- tensorboardX>=1.9
+- tensorflow>=2.12.0 
+- numpy>=1.23.5
+- tensorboard>=2.12.3 
   
 ### Training
 ```
