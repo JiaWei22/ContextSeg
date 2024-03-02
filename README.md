@@ -3,7 +3,7 @@ This is the official repository for the publication [ContextSeg: Sketch Semantic
 
 
 ## Dataset
-Dataset can be downloaded from [CreativeSketch](https://songweige.github.io/projects/creative_sketech_generation/gallery_creatures.html) and [SPG](https://github.com/sYeaLumin/SketchGNN).
+Dataset can be downloaded from [CreativeSketch](https://songweige.github.io/projects/creative_sketech_generation/gallery_creatures.html) and [SPG](https://github.com/KeLi-SketchX/SketchX-PRIS-Dataset).
 
 ## Requirments
 
