@@ -1,5 +1,5 @@
 # ContextSeg
-This is the official repository for the publication [ContextSeg: Sketch Semantic Segmentation by Querying the Context with Attention](https://arxiv.org/abs/2311.16682).
+This is the official repository for the publication [ContextSeg: Sketch Semantic Segmentation by Querying the Context with Attention](https://arxiv.org/abs/2311.16682). Our project page: (https://enigma-li.github.io/projects/contextSeg/contextSeg.html)
 
 
 ## Dataset
