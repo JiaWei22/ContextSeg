@@ -9,7 +9,7 @@ Dataset can be downloaded from [CreativeSketch](https://songweige.github.io/proj
 
 - tensorflow>=2.12.0 
 - numpy>=1.23.5
-- tensorboard>=2.12.3 
+
   
 ### Training
 ```
