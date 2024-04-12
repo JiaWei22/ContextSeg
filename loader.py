@@ -138,21 +138,6 @@ class GPRegTFReader(BaseReader):
         nb_gp = tf.shape(glabel_raw)[0]
         nb_stroke = tf.shape(glabel_raw)[1]
 
-        # # 转变tensor形状
-        # parsed_example['tensor'] = tf.reshape(parsed_example['tensor'], parsed_example['tensor_shape'])
-        #
-        # nb_stroke = tf.decode_raw(features['nb_stroke'], tf.float32)[0]
-        #
-        #
-        # input_raw = tf.decode_raw(features['input_raw'], tf.float32)
-        # input_raw = tf.reshape(input_raw, [nb_stroke, self.raw_size[0], self.raw_size[1]])
-        # glabel_raw = tf.decode_raw(features['glabel_raw'], tf.float32)
-        # print(glabel_raw.shape)
-        #
-        # group_len = tf.decode_raw(features['group_len'], tf.float32)
-        # print(group_len.shape)
-        #
-
         return input_raw,glabel_raw,nb_stroke,nb_gp
 
     def next(self):
