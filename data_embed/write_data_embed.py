@@ -121,33 +121,6 @@ dis_list = []
 group_list = []
 
 
-for inx, line_list in enumerate(merged_data):
-    print(inx)
-    lines, group_id = strokes_to_lines(line_list)
-
-
-
-    for inxx, line in enumerate(lines):
-      img = Image.new('1', (img_size, img_size), 0)
-      draw = ImageDraw.Draw(img)
-      pixels = [(int(x), int(y)) for x, y in line]
-
-      draw.line(pixels, fill=1, width=4)
-
-      arr = np.array(img)
-
-      arr_with_pad = np.zeros((256, 256))
-      start_row = (256 - img_size) // 2  
-      start_col = (256 - img_size) // 2 
-      arr_with_pad[start_row:start_row + img_size, start_col:start_col + img_size] = arr
-
-      stroke_list.append(arr_with_pad)
-
-      arr_int = np.copy(arr_with_pad).astype(np.uint8)
-
-      distance = GeodisTK.geodesic2d_raster_scan(arr_int.astype(np.float32), arr_int, 0, 5)
-      sd = 1 / (1 + 0.01 * np.exp(distance))
-      dis_list.append(sd)
 
 for inx, line_list in enumerate(merged_data):
     print(inx)
